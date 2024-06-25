@@ -1,0 +1,20 @@
+document.addEventListener('DOMContentLoaded', (event) => {
+    // Example user data
+    const user = {
+        username: "JohnDoe",
+        email: "johndoe@example.com",
+        joinedDate: "January 1, 2023"
+    };
+
+    // Populate user data in the profile page
+    document.getElementById('username').innerText = user.username;
+    document.getElementById('email').innerText = user.email;
+    document.getElementById('joinedDate').innerText = user.joinedDate;
+
+    // Logout function
+    document.getElementById('logoutButton').addEventListener('click', () => {
+        // Clear user session or token
+        alert('Logging out...');
+        window.location.href = 'responsive.html'; // Redirect to home page
+    });
+});
