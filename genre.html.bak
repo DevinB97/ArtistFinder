@@ -1,0 +1,46 @@
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ArtistFinder</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\kaels\Documents\College\PGU\IT488\Website IT488 touchy\logo.png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/genre.css">
+
+</head>
+   <header>
+      <nav>
+		<img src="logo.png" alt="ArtistFinder" width="250" height="200">
+			<li><a href="ContactUs NexGen Innovations.html">Support</a></li>
+			<li><a href="About us NexGen Innovations.html">About</a></li>
+			<li><a href="BookingPage.html">Booking</a></li>
+			<li><a href="genre.html">Genre</a></li>
+			<li><a href="EventsPage.html">Events</a></li>
+			<li><a href="Artist.html">Artist</a></li>
+			<li><a href="responsive.html">Home</a></li>
+      </nav>
+   </header>
+   
+        <br><br>
+		
+		<section class="Genre">
+	  <h3 class="title"></h3>
+    <table>
+	  <tr>
+	    <td><p><c href="#">Pop</c></p></td>
+		<td><p><c href="#">RnB</c></p></td>
+	  </tr>
+	  
+	  <tr>
+	    <td><p><c href="#">Country</c></p></td>
+		<td><p><c href="#">Hip Hop</c></p></td>
+	  </tr>
+	  
+	  <tr>
+		<td><p><c href="#">Rock</c></p></td>
+		<td><p><c href="#">Alternative</c></p></td>
+	  </tr>
+	</table>
+	</section>

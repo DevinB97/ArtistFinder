@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ArtistFinder Contact Us</title>
+<link rel="icon" type="image/x-icon" href="C:\Users\kaels\Documents\College\PGU\IT488\Website IT488 touchy\logo.png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css\aboutus_contact.css">
+</head>
+
+<body>
+<header><!--<img src="logo.png" alt="ArtistFinder" width="250" height="200">--><h1>Contact Us</h1></header>
+<nav><ul>
+			<li><a href="userprofile.html">User</a></li>
+		    <li><a href="responsive.html">Home</a></li>
+			<li><a href="Artist.html">Artist</a></li>
+			<li><a href="EventsPage.html">Events</a></li>
+			<li><a href="genre.html">Genre</a></li>
+			<li><a href="BookingPage.html">Booking</a></li>
+			<li><a href="About us NexGen Innovations.html">About</a></li>
+			<li><a href="ContactUs NexGen Innovations.html">Support</a></li>
+</ul></nav>
+<main><h2>Tell Us What You Think!</h2><form action="https://www.ArtistFinder.com" method="post">
+<label>Email:</label>
+<input type="email" name="email" required><br>
+<label>Last Name:</label>
+<input type="text" name="last name" required><br>
+<label>Phone:</label>
+<input type="tel" name="phone" required><br>
+<textarea name="comment" rows="10" cols="30">
+</textarea>
+<h2>Enter your four-digit passcode, then click OK:</h2>
+<input type="number" id="passcode" min="1000" max="9999">
+<button onclick="myFunction()">OK</button>
+<p id="validation-message-placeholder"></p>
+<script>
+function myFunction(){
+var inpObj= document.getElementByld("passcode");
+if (inpObj.checkValidity() == false){
+document.getElementByld("validation-message-placeholder").innerHTML =
+inpObj.validationMessage;
+}else{
+document.getElementByld("validation-message-placeholder").innerHTML = "Passcode Valid";
+}
+}
+</script>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="checkbox" name="newsletter" value="subscribe">Subscribe to our Newsletter
+<select name="prefix">
+<option>Select One</option>
+<option value="mr">Mr.</option>
+<option value="mrs">Mrs.</option>
+<option value="ms">Ms.</option>
+</select>
+    <div class="controls">
+
+        <label for="id">User ID:</label>
+        <input type="text" id="id" name="id">
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </div>
+</form>
+</main>
+<footer><p>
+<a href="responsive.html">Home Page</a>|<a href="About us NexGen Innovations.html">About Us</a>|<a href="ContactUs NexGen Innovations.html">Contact Us</a>|<a href="Gallery.html">Gallery</a>
+</p>
+<ul>
+			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+			<li><a href="#"><i class="fa fa-github-square"></i></a></li>
+		</ul></footer>
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        const message = document.getElementById('message').value;
+        if (name && email && message) {
+            alert('Thank you for your message, ' + name + '! We will get back to you soon.');
+            document.getElementById('contactForm').reset();
+        } else {
+            alert('Please fill out all fields.');
+        }
+    });
+</script>
+</body>
+</html>

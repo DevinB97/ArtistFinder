@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift - Music Artist</title>
+    <link rel="stylesheet" href="nexgen.css">
+    <link rel="stylesheet" href="css\Artist.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="Music Artist" width="250" height="200">
+            <ul>
+			<li><a href="userprofile.html">User</a></li>
+		    <li><a href="responsive.html">Home</a></li>
+			<li><a href="Artist.html">Artist</a></li>
+			<li><a href="EventsPage.html">Events</a></li>
+			<li><a href="genre.html">Genre</a></li>
+			<li><a href="BookingPage.html">Booking</a></li>
+			<li><a href="About us NexGen Innovations.html">About</a></li>
+			<li><a href="ContactUs NexGen Innovations.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="artist-details">
+            <h3 class="title">Taylor Swift</h3>
+            <p>
+                Taylor Swift is an American singer-songwriter known for her narrative songwriting that often centers on her personal life, love stories, and emotional experiences. She was born on December 13, 1989, in Reading, Pennsylvania, and began her career in country music before transitioning to pop and exploring other genres.
+            </p>
+            <p>
+                Swift released her self-titled debut album in 2006 which included hits like "Tim McGraw." Her early music was characterized by a blend of country and pop with storytelling lyrics that resonated with a young audience. She gained widespread recognition with her second album "Fearless" (2008) featuring chart-topping singles like "Love Story" and "You Belong with Me."
+            </p>
+            <p>
+                Her subsequent albums including "Speak Now" (2010) and "Red" (2012) marked a gradual shift towards a more mainstream pop sound while still maintaining her signature lyrical style. The album "1989" (2014) was a full pop reinvention producing hits like "Shake It Off," "Blank Space," and "Bad Blood." This album solidified her status as a global pop icon.
+            </p>
+            <p>
+                Swift continued to evolve her musical style with "Reputation" (2017) which incorporated darker, more synth-heavy sounds and themes of media scrutiny and personal rebirth. "Lover" (2019) returned to a lighter, more romantic tone showcasing her versatility.
+            </p>
+            <p>
+                In 2020, Swift released two surprise albums "Folklore" and "Evermore" which marked a departure from her previous pop sound, embracing indie folk and alternative rock influences. These albums were praised for their introspective and mature songwriting.
+            </p>
+            <p>
+                Swift's music is characterized by its emotional honesty, relatable themes, and melodic hooks. She has won numerous awards including multiple Grammy Awards and is known for her strong connection with her fans. Beyond her music, she is also recognized for her advocacy on issues such as artists' rights and gender equality.
+            </p>
+        </section>
+        <section class="artist-albums">
+            <h3 class="title">Albums</h3>
+            <ul>
+                <li>Taylor Swift (2006)</li>
+                <li>Fearless (2008)</li>
+                <li>Speak Now (2010)</li>
+                <li>Red (2012)</li>
+                <li>1989 (2014)</li>
+                <li>Reputation (2017)</li>
+                <li>Lover (2019)</li>
+                <li>Folklore (2020)</li>
+                <li>Evermore (2020)</li>
+				<li>Midnights (2022)</li>
+            </ul>
+        </section>
+        <section class="artist-tours">
+            <h3 class="title">Upcoming Tours</h3>
+            <ul>
+                <li>June 2, 2024 - Chicago, IL</li>
+                <li>June 9, 2024 - Detroit, MI</li>
+                <li>June 16, 2024 - Pittsburgh, PA</li>
+                <li>June 23, 2024 - Minneapolis, MN</li>
+                <li>June 30, 2024 - Kansas City, MO</li>
+                <li>July 7, 2024 - Denver, CO</li>
+                <li>July 14, 2024 - Seattle, WA</li>
+                <li>July 21, 2024 - Santa Clara, CA</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

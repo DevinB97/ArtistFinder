@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyla - Music Artist</title>
+    <link rel="stylesheet" href="nexgen.css">
+    <link rel="stylesheet" href="css\Artist.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="Music Artist" width="250" height="200">
+            <ul>
+			<li><a href="userprofile.html">User</a></li>
+		    <li><a href="responsive.html">Home</a></li>
+			<li><a href="Artist.html">Artist</a></li>
+			<li><a href="EventsPage.html">Events</a></li>
+			<li><a href="genre.html">Genre</a></li>
+			<li><a href="BookingPage.html">Booking</a></li>
+			<li><a href="About us NexGen Innovations.html">About</a></li>
+			<li><a href="ContactUs NexGen Innovations.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="artist-details">
+            <h3 class="title">Tyla</h3>
+            <p>
+                Tyla is a South African singer, songwriter, and dancer known for her versatile voice and energetic performances. She has gained popularity with hits that blend pop, R&B, and afrobeats.
+            </p>
+        </section>
+        <section class="artist-albums">
+            <h3 class="title">Albums</h3>
+            <ul>
+                <li>First Album (2022)</li>
+                <li>Second Album (2024)</li>
+            </ul>
+        </section>
+        <section class="artist-tours">
+            <h3 class="title">Upcoming Tours</h3>
+            <ul>
+                <li>July 20, 2024 - Johannesburg, South Africa</li>
+                <li>August 15, 2024 - Lagos, Nigeria</li>
+                <li>September 10, 2024 - Nairobi, Kenya</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

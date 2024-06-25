@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariana Grande - Music Artist</title>
+    <link rel="stylesheet" href="nexgen.css">
+    <link rel="stylesheet" href="css\Artist.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="Music Artist" width="250" height="200">
+            <ul>
+			<li><a href="userprofile.html">User</a></li>
+		    <li><a href="responsive.html">Home</a></li>
+			<li><a href="Artist.html">Artist</a></li>
+			<li><a href="EventsPage.html">Events</a></li>
+			<li><a href="genre.html">Genre</a></li>
+			<li><a href="BookingPage.html">Booking</a></li>
+			<li><a href="About us NexGen Innovations.html">About</a></li>
+			<li><a href="ContactUs NexGen Innovations.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="artist-details">
+            <h3 class="title">Ariana Grande</h3>
+            <p>
+                Ariana Grande is an American singer, songwriter, and actress. Known for her powerful and wide vocal range, she has received numerous accolades throughout her career.
+            </p>
+        </section>
+        <section class="artist-albums">
+            <h3 class="title">Albums</h3>
+            <ul>
+                <li>Yours Truly (2013)</li>
+                <li>My Everything (2014)</li>
+                <li>Dangerous Woman (2016)</li>
+                <li>Sweetener (2018)</li>
+                <li>Thank U, Next (2019)</li>
+                <li>Positions (2020)</li>
+            </ul>
+        </section>
+        <section class="artist-tours">
+            <h3 class="title">Upcoming Tours</h3>
+            <ul>
+                <li>July 10, 2024 - Tokyo, Japan</li>
+                <li>August 18, 2024 - Seoul, South Korea</li>
+                <li>September 22, 2024 - Sydney, Australia</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

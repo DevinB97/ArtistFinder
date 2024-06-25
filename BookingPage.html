@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Booking Page</title>
+    <link rel="stylesheet" href="css\booking_styles.css">
+</head>
+<nav>
+		<img src="logo.png" alt="ArtistFinder" width="250" height="200">
+			<li><a href="ContactUs NexGen Innovations.html">Support</a></li>
+			<li><a href="About us NexGen Innovations.html">About</a></li>
+			<li><a href="BookingPage.html">Booking</a></li>
+			<li><a href="genre.html">Genre</a></li>
+			<li><a href="EventsPage.html">Events</a></li>
+			<li><a href="Artist.html">Artist</a></li>
+			<li><a href="index.html">Home</a></li>
+</nav>
+<body>
+    <div class="container">
+        <h1>Book an Artist</h1>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="artist">Select Artist:</label>
+            <select id="artist" name="artist" required>
+                <option value="">--Select Artist--</option>
+				<option value="Ariana Grande" data-fee="150">Ariana Grande - $150/hr</option>
+				<option value="Beyonce" data-fee="400">Beyonce - $400/hr</option>
+				<option value="Bruno Mars" data-fee="200">Bruno Mars - $200/hr</option>
+				<option value="Chris Stapleton" data-fee="250">Chris Stapleton - $250/hr</option>
+                <option value="Nicki Minaj" data-fee="100">Nicki Minaj - $100/hr</option>
+				<option value="Rihanna" data-fee="350">Rihanna - $350/hr</option>
+				<option value="Taylor Swift" data-fee="400">Taylor Swift - $400/hr</option>
+				<option value="Tyla" data-fee="200">Tyla - $200/hr</option>
+            </select>
+            
+            <label for="date">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+            
+            <label for="hours">Number of Hours:</label>
+            <input type="number" id="hours" name="hours" min="1" required>
+            
+            <h3>Total Fee: $<span id="totalFee">0.00</span></h3>
+            
+            <button type="submit">Book Now</button>
+        </form>
+        
+        <h2>Booking Details</h2>
+        <table id="bookingTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Artist</th>
+                    <th>Date</th>
+                    <th>Location</th>
+                    <th>Hours</th>
+                    <th>Total Fee</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="javascript\booking_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Music Artist</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href=".\css\Artist.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="Music Artist" width="250" height="200">
+            <li><a href="ContactUs NexGen Innovations.html">Support</a></li>
+			<li><a href="About us NexGen Innovations.html">About</a></li>
+			<li><a href="BookingPage.html">Booking</a></li>
+			<li><a href="genre.html">Genre</a></li>
+			<li><a href="EventsPage.html">Events</a></li>
+			<li><a href="Artist.html">Artist</a></li>
+			<li><a href="responsive.html">Home</a></li>
+            <!-- Search Form -->
+            <div class="form-container">
+                <form class="form" id="searchForm">
+                    <input id="search" type="text" class="input" placeholder="search..."/>
+                    <button type="button" id="searchButton" class="search-button">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="artist-details">
+            <h3 class="title">Artist Name</h3>
+            <p>Biography or details about the artist go here. This section can include information about their career, notable works, awards, and more. Type the name of the popular artist from our home page, you are searching for in the search bar.</p>
+        </section>
+        <section class="artist-albums">
+            <h3 class="title">Albums</h3>
+            <ul>
+                <li>Album 1</li>
+                <li>Album 2</li>
+                <li>Album 3</li>
+            </ul>
+        </section>
+        <section class="artist-tours">
+            <h3 class="title">Upcoming Tours</h3>
+            <ul>
+                <li>Tour Date 1</li>
+                <li>Tour Date 2</li>
+                <li>Tour Date 3</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-github-square"></i></a></li>
+        </ul>
+    </footer>
+    <script src=".\javascript\searchFunction.js"></script>
+</body>
+</html>
